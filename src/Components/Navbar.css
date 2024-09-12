@@ -1,0 +1,16 @@
+.navbar-brand-custom {
+    font-size: 32px;
+    letter-spacing: 3px;
+    color: #fff !important;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .navbar-brand-custom:hover {
+    color: #ffdd57 !important;
+  }
+  

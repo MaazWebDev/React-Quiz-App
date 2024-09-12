@@ -1,0 +1,236 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: #007bff;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-size: 32px;
+  letter-spacing: 3px;
+  color: #fff !important;
+  font-weight: 600;
+}
+
+.navbar-brand:hover {
+  color: #ffdd57 !important;
+}
+
+.welcome-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: #007bff;
+  margin-top: 40px;
+}
+
+.welcome-section p {
+  font-size: 18px;
+  color: #555;
+  margin: 30px 0;
+}
+
+.welcome-section .btn-info {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 30px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.welcome-section .btn-info:hover {
+  background-color: #0056b3;
+}
+
+.quiz-sec {
+  max-width: 700px;
+  margin: 30px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quiz-sec p {
+  font-size: 22px;
+  font-weight: 500;
+  color: #007bff;
+}
+
+.quiz-sec .form-check-label {
+  font-size: 18px;
+  color: #555;
+  margin: 10px 0;
+}
+
+.quiz-sec .btn-info {
+  background-color: #007bff;
+  border: none;
+  font-size: 18px;
+  padding: 10px 25px;
+  margin-top: 20px;
+}
+
+.quiz-sec .btn-info:hover {
+  background-color: #0056b3;
+}
+
+.result-sec {
+  max-width: 500px;
+  margin: auto;
+  padding: 30px;
+  background-color:#f5f9fd;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-sec p {
+  font-size: 1.8rem;
+}
+
+.result-sec .btn-info {
+  font-size: 18px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  background-color: #17a2b8;
+  border: none;
+}
+.result-sec .btn-info:hover{
+  background-color: #1687a8;
+}
+
+footer {
+  background-color: #007bff;
+  padding: 20px;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  margin-top: 40px;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+footer .social-icons a{
+  color: #fff;
+  margin: 0 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+footer .social-icons a:hover {
+  transform: scale(1.2);
+}
+.welcome-section {
+  padding: 2rem 0;
+}
+
+.title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  color: #004085;
+}
+
+.description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #495057;
+}
+
+.start-button {
+  font-size: 1.2rem;
+  padding: 0.8rem 2.5rem;
+  background-color: #17a2b8;
+  border: none;
+  color: #fff;
+}
+
+.start-button:hover {
+  background-color: #138496;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .title {
+    font-size: 2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+  }
+
+  .start-button {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+h2 {
+  font-size: 2rem;
+  color: #343a40;
+}
+
+.quiz-sec {
+  margin-top: 2rem;
+}
+
+.result-sec {
+  font-size: 1.5rem;
+}
+
+button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 10px;
+  color: white;
+}
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 576px) {
+  .welcome-section h1 {
+    font-size: 36px;
+  }
+
+  .welcome-section p {
+    font-size: 16px;
+  }
+
+  .quiz-sec {
+    padding: 15px;
+  }
+
+  .result-sec p {
+    font-size: 1.5rem;
+  }
+
+  button {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+
+  .footer .social-icons svg {
+    width: 24px;
+    height: 24px;
+  }
+}
